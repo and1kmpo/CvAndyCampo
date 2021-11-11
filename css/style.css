@@ -1,37 +1,10 @@
-<<<<<<< HEAD
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-=======
-:root {
-    --primary: #021523ea;
-    --danger: #EF5734;
-    --grey: #8E8E8E;
-    --white: #FFFFFF;
 }
 
-*, *::before,*::after{
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-}
-
-body {
-    font-family: "Open Sans", sans-serif;
-    color: #000000;
-    min-height: 100%;
-    background-color: rgba(137, 111, 255, 0.556);
-    padding: 0;
-    margin: 0;
-    line-height: 1.6;
-    
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
-}
 html {
-<<<<<<< HEAD
   height: 100%;
 }
 
@@ -103,43 +76,9 @@ li{
   img#avatarImg {
     min-width: 50%;  
 }
-=======
-    font-size: 62.5%;
-    box-sizing: border-box;
-    height: 99%;
-    max-width: 100%;
-    text-decoration: none;
-    list-style: none;
-}
-
-
-
-/* GRID */
-.grid-container>* {
-    
-}
-
-.header {
-    grid-area: navbar;
-    
-    height: auto;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-.main__sidebar {
-    grid-area: sidebar;
-}
-
-.main__content {
-    grid-area: main;
-    
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 }
 /* FIN GRID */
 
-<<<<<<< HEAD
 /* MENÚ */
 .nav {
     display: flex;
@@ -244,110 +183,9 @@ li{
   .nav-toggle:focus:not(:focus-visible) {
     outline: none;
   }
-=======
-.footer {
-    grid-area: footer;
-    
-}
-
-.grid-container {
-    width: 95vw;
-    margin: 0 auto;
-    display: grid;
-    gap: 10px;
-    grid-template: "navbar" 50px 
-                    "sidebar" auto 
-                    "main" auto 
-                    "footer" 100px;
-                    
-}
-
-@media (min-width: 768px) {
-    .grid-container {
-        grid-template: "sidebar  navbar navbar" auto 
-                       "sidebar  main   main" auto 
-                       "sidebar  footer footer" 100px /
-                        230px auto 100px;
-    }
-
-   
-    
-} 
-
-@media (min-width: 900px) {
-    
-}
-
-/* FIN GRID */
-
-
-/* MENÚ */
-.navbar{
-    background: var(--primary);
-    height: max-content;
-    
-}
-
-.navbar-header{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--grey); 
-}
-
-.navbar-menu-mobile{
-    color: var(--danger);
-    border: 1px solid var(--white);
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.brand-link{
-    color: var(--white);
-    font-size: 2rem;
-}
-
-.navbar-container{
-    position: absolute;
-    background: var(--primary);
-    width: 100%;
-    left: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    height: 0px;
-    overflow: hidden;
-    transition: height 0.4s ease;
-}
-
-.navbar-link{
-    color: var(--white);
-}
-
-#navbar-header:target .navbar-container{
-    height: 300px;
-}
-
-#navbar-header:target .open{
-    display: none;
-}
-
-#navbar-header:target .close{
-    display: flex;
-}
-
-.close{
-    display: none;
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 }
 /* FIN MENÚ */
 
-<<<<<<< HEAD
 
 
 /* Estilos cajas */
@@ -410,61 +248,11 @@ h2.name {
   font-size: 18px;
   font-weight: 600;
   font: 400;
-=======
-/* FIN MENÚ */
-
-
-.name__sidebar {
-    padding: 10px 3%;
-    background-color: rgba(0, 0, 0, 0.270588);
-    text-align: center;
-}
-
-.content__sidebar{
-    padding: 0 !important;
-}
-.containerMain{
-    background-color: rgba(42, 42, 42, 0);
-    border-radius: 4px;
-    border: 1px solid;
-    -webkit-box-shadow: 10px 10px 5px -3px #0f0f0f;
-    -moz-box-shadow: 10px 10px 5px -3px #0f0f0f;
-    box-shadow: 10px 10px 5px -3px #0f0f0f;
-    padding: 20px;
-    margin-bottom: 10px
-;
-}
-
-img#avatarImg {
-    margin-top: 10px;
-    max-width: 40% !important;
-    border-radius: 10% 10% 0 0 !important;
-    align-items: center;
-    display:block;
-    margin:auto;
-    padding-top: 10px;
-    
-}
-h2.name {
-    font-weight: 650;
-    font-size: 1.275rem;
-    margin-top: 10px;
-}
-.sub_name {
-        margin: 0;
-        font-size: 18px;
-        font-style: italic;
-        font: 400;
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 }
 .networks {
   padding: 10px 3%;
   border-bottom: solid 2px #3a3939;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 ul.social__networks.list {
   margin: 0 auto;
   padding: 0%;
@@ -480,7 +268,6 @@ li.social__networks.list-item {
   padding: 10px;
   text-align: left;
 }
-<<<<<<< HEAD
 h3.professional__profile.title {
   font-weight: 700;
 }
@@ -502,37 +289,11 @@ h3.professional__profile.title {
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
-=======
-
-.professional__profile {
-    padding: 10px;
-    text-align: left;
-}
-
-.img-bannerEducation {
-    max-width: 100%;
-    height: auto;
-}
-.div-button {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-/* BANNER */
-#banner {
-    max-width: 100%;
-    background-image: url(/image/banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: max-content;
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 }
 h2.banner__info.h2 {
   font-weight: 700;
   font-size: 1.2rem;
 }
-<<<<<<< HEAD
 
 h4.banner__info.h4 {
   font-weight: bolder;
@@ -562,27 +323,12 @@ img.bannerImg {
 /* FIN BANNER */
 
 /* SOBRE MÍ */
-=======
-p.banner__info.p {
-    font-weight: 600;
-    font-style: italic;
-}
-
-/* FIN BANNER */
-
-
-/* ABOUT ME */
-.sectionDescription i {
-    color: aqua;
-}
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 .technologies {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .technology {
-<<<<<<< HEAD
   margin: 10px;
   text-align: center;
   width: 120px;
@@ -641,74 +387,11 @@ p.banner__info.p {
 .skillsProfesionals {
   background-color: rgba(0, 0, 0, 0.270588);
   padding: 30px 0px;
-=======
-    margin: 10px;
-    text-align: center;
-    width: 60px;
-    height: 60px;
-    background-color: rgba(0, 0, 0, 0.270588);
-    border-bottom: solid 4px #2efa00;
-}
-.technology i {
-    margin-top: 8px;
-    font-size: 1.7rem;
-}
- .technology h6 {
-        margin-top: 3px;
-        font-weight: 700;
-        color: #ffffff;
-        font-size: 0.675rem;
-    }
-    .fa-file-excel {
-        color: #03e41d;
-    }
-    .fa-html5 {
-        color: #f55803;
-    }
-    
-    .fa-css3-alt {
-        color: #09c6ff;
-    }
-    
-    .fa-js-square {
-        color: #ffee00;
-    }
-    #knowMoreContainer {
-        border: solid 1px #2efa00 !important;
-        margin-top: 20px;
-        background-color: rgba(0, 0, 0, 0.270588) !important;
-        text-align: center;
-        border-radius: 5px;
-    }
-    .knowMore__card-body {
-        flex: 1 1 auto;
-        padding: 1rem 1rem;
-    }
-    .knowMore__card-title {
-        margin-bottom: 0.5rem;
-    }
-    .fas.fa-cloud-download-alt {
-        color: aqua;
-        font-size: 1.6rem;
-    }
-    #textButtonGreen {
-        font-size: 1.1rem;
-        font-weight: 550;
-    }
-/* FIN ABOUT ME */
-
-/* SKILLS */
-.skillsProfesionals {
-    background-color: rgba(0, 0, 0, 0.270588);
-    padding: 10px 3px 3px 10px;
-    min-width: 280px;
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 }
 .skillsProfesionals__title {
   text-align: center;
 }
 .h4.skillsProfesionals__title.h4 {
-<<<<<<< HEAD
   font-weight: 600;
   font-size: 1.4rem;
 }
@@ -807,133 +490,18 @@ p.banner__info.p {
 }
 .htmljs,
 .imgappinventor {
-=======
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-  .skill {
-        width: 250px;
-    }
-    
-    .skill__percentage {
-        max-width: 10%;
-    }
-    
-    .skill__title {
-        width: 90px;
-        font-weight: 650;
-    }
-    
-    .skillProgress {
-        height: 30px;
-        min-width: 250px;
-    }
-    
-    .skillProgressBar {
-        margin-top: 7px;
-        height: 6px;
-        min-width: 100%;
-        background-color: #3a3939;
-    }
-    
-    .skillProgressBar div {
-        height: 100%;
-    }
-    
-    .excel {
-        background-color: #03e41d;
-        width: 80%;
-    }
-    
-    .skillsProgress__section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        padding-top: 10px
-;
-    }
-    
-    .skills__flex {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 10px;
-    }
-    
-    .skill__percentage-p {
-        text-align: end;
-        max-width: 40px;
-    }
-    
-    .html {
-        background-color: #f55803;
-        width: 60%;
-    }
-    
-    .css {
-        background-color: #09c6ff;
-        width: 55%;
-    }
-    
-    .js {
-        background-color: #ffee00;
-        width: 40%;
-    }
-    
-    .sql {
-        background-color: #ff0000;
-        width: 40%;
-    }
-    
-    .english {
-        background-color: #b726fa;
-        width: 30%;
-    }
-
-    /* FIN SKILLS */
-    
-.courses {
-    margin-top: 20px;
-    padding: 10px;
-    border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.270588);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.3em;
-}
-
-.htmljs
- {
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
     margin: auto 0;
-    width: 10%;
-    height: 10%;
-    max-width: 50%;
-}
-.imgappinventor{
-    margin: auto 0;
-    width: 10%;
-    height: 15%;
+    width: 6%;
+    height: 6%;
     max-width: 50%;
 }
 .logosena {
-<<<<<<< HEAD
   margin: auto 0;
   width: 6%;
   height: 6%;
   max-width: 50%;
   background-color: rgba(250, 250, 250, 0.5);
   border-radius: 50%;
-=======
-    margin: auto 0;
-    width: 10%;
-    height: 10%;
-    max-width: 50%;
-    background-color: rgba(250, 250, 250, 0.5);
-    border-radius: 50%;
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 }
 
 .imgphotoshop,
@@ -942,7 +510,6 @@ p.banner__info.p {
 .img-grade,
 .imgdeveloper,
 .imgprogramming {
-<<<<<<< HEAD
   margin: auto 0;
   width: 5%;
   height: 5%;
@@ -979,52 +546,10 @@ p.banner__info.p {
   margin: auto;
   max-width: 55%;
   text-align: center;
-=======
-    margin: auto 0;
-    width: 10%;
-    height: 10%;
-    max-width: 50%;
-}
-
-.logoutb {
-    margin: auto 0;
-    width: 20%;
-    height: 20%;
-    max-width: 50%;
-    background-color: rgba(250, 250, 250, 0.5);
-    border-radius: 10%;
-}
-
-.logoucn {
-    margin: auto 0;
-    width: 25%;
-    height: 25%;
-    max-width: 50%;
-    background-color: rgba(250, 250, 250, 0.5);
-    border-radius: 5%;
-}
-
-.logoplatzi {
-    margin: auto 0;
-    width: 15%;
-    height: 20%;
-    max-width: 50%;
-    background-color: rgba(150, 146, 146, 0.5);
-    border-radius: 5%;
-}
-.courses h6 {
-    margin: auto;
-    max-width: 55%;
-    text-align: center;
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 }
 /* FIN EDUCACIÓN */
 
-<<<<<<< HEAD
 /* EXPERIENCIA */
-=======
-/* EXPERIENCE */
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 .companies {
   background-color: rgba(0, 0, 0, 0.270588);
   padding: 0% 3% 0% 3%;
@@ -1064,21 +589,12 @@ p.banner__info.p {
 }
 
 .companyInfo__name {
-<<<<<<< HEAD
   font-weight: 600;
   font-size: 1.25rem;
 }
 
 .company__link {
   padding-bottom: 10px;
-=======
-     font-weight: 600;
-     font-size: 1.25rem;
- }
-
- .company__link {
-    padding-bottom: 10px;
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 }
 
 .company-link__a {
@@ -1087,12 +603,6 @@ p.banner__info.p {
 }
 /* FIN EXPERIENCIA */
 
-<<<<<<< HEAD
-=======
-/* FIN EXPERIENCE */
-
-
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 /* CONTACTO */
 .contactInfo {
   display: flex;
@@ -1104,13 +614,8 @@ p.banner__info.p {
   font-size: 1.1875rem;
 }
 
-<<<<<<< HEAD
 .contactInfo div {
   min-width: 49%;
-=======
-.contactInfo {
-    min-width: 49%;
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
 }
 
 b.itemContact {
@@ -1135,7 +640,6 @@ ul.socialNetworks__list {
   align-items: center;
   justify-items: center;
 }
-<<<<<<< HEAD
 li.socialNetworks__list.li {
   font-size: 1.8rem;
 }
@@ -1259,25 +763,3 @@ a .round i {
   }
 } */
 /* FIN BACKGROUND ANIMADO */
-=======
-i.social-networks__list--i {
-    color: aqua;
-}
-
-li.socialNetworks__list.li {
-    font-size: 1.8rem;
-}
-
-.containerFooter {
-    margin-top: 20px;
-}
-/* FIN CONTACTO */
-.infoText {
-    margin-bottom: 22px;
-}
-#footer {
-    text-align: center;
-    margin-top: -22px;
-   
-}
->>>>>>> 0f2f45453741010a8b476988bc2a576752c3f2a4
