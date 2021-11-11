@@ -284,7 +284,7 @@ h3.professional__profile.title {
   display: grid;
   grid-template: 70% / 70% 30%;
   align-items: center;
-  background-image: url(CV ANDY CAMPO/image/banner.jpg);
+  background-image: url(/image/banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
