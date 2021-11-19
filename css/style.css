@@ -513,6 +513,12 @@ h2{
 /* FIN HABILIDADES */
 
 /* EDUCACIÓN */
+.link__text{
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--secondary-color);
+}
+
 .img-bannerEducation {
   max-width: 100%;
   height: auto;
@@ -644,8 +650,12 @@ h2{
 
 .company-link__a {
   text-decoration: none;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: var(--secondary-color);
+}
+
+.experience__item{
+  padding-left: 25px;
 }
 /* FIN EXPERIENCIA */
 
