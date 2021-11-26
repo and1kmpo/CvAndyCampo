@@ -19,8 +19,7 @@ body {
   font-size: 1.2rem;
   min-height: 100%;
   color:var(--text-color);
-  background-color: var(--main-bg-color);
-  
+  background-color: var(--main-bg-color);  
 }
 
 p {
@@ -58,6 +57,8 @@ li{
   top: 0;
   left: 0;
   bottom: 0;
+  z-index: 1000;
+  position: fixed;
 }
 
 .sidebar {
@@ -141,9 +142,9 @@ li{
   }
   .nav-menu-link:hover,
 .nav-menu-link_active {
-  background-color: var(--secondary-color);
-  transition: 0.5s;
-  color: #000;
+  border-bottom: solid 2px var(--text-color) ;
+  transition: 0.6s;
+  color: var(--secondary-color);
 }
 /* MENU TOGGLE */
 .nav-toggle {
@@ -156,6 +157,8 @@ li{
     cursor: pointer;
     display: none;
   }
+
+  
 
   /* MENU MOBILE */
 @media (max-width: 768px) {
@@ -322,7 +325,7 @@ h3.professional__profile.title {
   display: grid;
   grid-template: 70% / 70% 30%;
   align-items: center;
-  background-image: url(/image/banner3.jpeg);
+  background-image: url(/image/banner3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -341,6 +344,7 @@ p.banner__info.p {
 }
 .banner-info {
   margin-top: 75px;
+  margin-left: 20px
 }
 .banner-photo {
   max-width: 100%;
@@ -515,7 +519,6 @@ h2{
 /* EDUCACIÓN */
 .link__text{
   text-decoration: none;
-  font-size: 1rem;
   color: var(--secondary-color);
 }
 
@@ -656,6 +659,8 @@ h2{
 
 .experience__item{
   padding-left: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 /* FIN EXPERIENCIA */
 
